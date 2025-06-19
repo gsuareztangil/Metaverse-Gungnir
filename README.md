@@ -1,19 +1,20 @@
 # Gungnir
-Gungnir is a tool to download and analyzing free XR applications from SideQuest Marketplace, developed by Anfonso R. Barredo-Valenzuela while at IMDEA Networks. It is composed by two functionalities. First a Crawler used for searching and Gathering APKs. Second, an script to extract relevant information from the extracted dataset.
+Gungnir is a tool to download and analyze free XR applications from SideQuest Marketplace, developed by Anfonso R. Barredo-Valenzuela while at IMDEA Networks. It is composed by two functionalities. First, a crawler used for searching and gathering APKs. Second, a script to extract relevant information from the extracted dataset.
+
 
 ## Requirements 
 The use of this software requires having several items before.
 - HARDWARE
     - Meta Headset (e.g., Meta Quest 3) in Developer mode.
 - SOFTWARE
-    - **SideQuest Desktop** app installed in the PC.
-        - User account credentials have to be provided filled in at `./crawler/configuration.py`. 
+    - **SideQuest Desktop** app installed on the PC.
+        - User account credentials must be provided and filled in at `./crawler/configuration.py`. 
     - **Google Chrome** installed (if you want you can change the selenium driver for using another browser).
     - **Il2CppDumper**
     - **Jadx**
     - (Optional) Having installed the Meta Developer Hub.
 
-For the python scripts run this command for installing dependencies: 
+For the Python scripts, run this command for installing dependencies: 
 
 ```bash
 pip install -r requirements.txt 
